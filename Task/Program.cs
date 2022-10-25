@@ -25,3 +25,16 @@ void PrintArray(string[] arr)
     }
     Console.WriteLine("]");
 }
+
+Console.WriteLine("\nИсходные массивы:");
+PrintArray(textArray1);
+PrintArray(textArray2);
+PrintArray(textArray3);
+
+Console.WriteLine("\nРезультат:");
+string[] res1 = GetTextArrayMaxWithThreeSymbols(textArray1);
+PrintArray(res1);
+string[] res2 = GetTextArrayMaxWithThreeSymbols(textArray2);
+PrintArray(res2);
+string[] res3 = GetTextArrayMaxWithThreeSymbols(textArray3);
+PrintArray(res3);
